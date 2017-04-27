@@ -1,0 +1,329 @@
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-track{background-color:#eff0f4;}
+::-webkit-scrollbar-thumb{background-color:#b3b3b3;}
+::-webkit-scrollbar-thumb:active {background-color:#b3b3b3}
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+.wrap{
+    height: 100%;
+    width: 100vmin;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.header{
+    background-color: #5ac0ce;
+    height: 4rem;
+    position: relative;
+}
+.search{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search1{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    width: 8rem;
+    background-color: #1b6d85;
+    color: white;
+    border-radius: 10px;
+    font-size: 2rem;
+
+}
+.search2{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    width: 8rem;
+    background-color: white;
+    color: #1b6d85;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin-left: -1rem;
+}
+.location{
+    float: right;
+    width: 3rem;
+    height: 3rem;
+    margin: auto 1rem auto auto;
+    position: absolute;
+    top:0;right:0;bottom: 0;
+}
+.imageSize{
+    position: absolute;
+    top:8px;
+    right:8px;
+    height: 30px;
+    width: 30px;
+}
+.footer{
+    height: 11rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f8fafb;
+}
+.links{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.footImage{
+    margin-top:0.6rem;
+    width:52px;
+    height:52px;
+}
+.main{
+
+    width: 100%;
+    color:#8c8c8c;
+    font-size: 1.5rem;
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(100% - 9rem);
+    background-color:#ffffff;
+
+}
+.nav{
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    line-height: 4rem;
+}
+span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.common>li{
+float: left;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+
+}
+.drop-down{
+    position: relative;
+    list-style: none;
+    width: calc((100vmin - 15px)/3);
+    font-size: 1.5rem;
+    border:1px solid;
+    border-color: transparent #ddd transparent transparent ;
+}
+.nav .drop-down:hover .drop-down-content{
+    display: block;
+}
+.drop-down-content{
+    z-index: 999;
+    padding: 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 4rem;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+    padding: 0;
+    height: 9rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+.nav ul li ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 2rem;
+}
+.nav ul li a span{
+    float: right;
+    border:0 solid #fff;
+    border-width:5px 5px 0;
+    border-color: #8c8c8c #fff;
+    width:0;
+    height: 0;
+    margin-top:2rem;
+}
+
+
+
+
+
+
+.borderColor{
+    border-left-color: #8c8c8c;
+    border-right-color: #8c8c8c;
+}
+.nav ul li.noborder{
+    border-right-color:transparent;
+}
+.drop-down a{
+    text-decoration: none;
+}
+
+.col-md-8{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.panel{
+    border: none;
+}
+.timeColor{
+    color:black;
+    font-weight: bold;
+    text-indent: 22px;
+}
+.panel-body{
+    padding: 0;
+}
+
+.box{
+    float: left;
+    width: 60px;
+}
+td{
+    text-align: left;
+}
+.wordCenter{
+    vertical-align: middle;
+}
+
+em{
+   display:inline-block;
+    width:15px;
+    height: 15px;
+    margin-right: 8px;
+    background: url(../images/sprites5.jpg) no-repeat;
+}
+.icon1{
+    background-position: 0px 0px;
+    background-size: cover;
+}
+.icon2{  background-position: 2px -65px;  background-size: cover;}
+.icon3{  background-position: 0px -130px;  background-size: cover;}
+.icon4{  background-position: 2px -195px;  background-size: cover;}
+.icon5{  background-position: 0px -260px;  background-size: cover;}
+.icon6{  background-position: 2px -325px;  background-size: cover;}
+.icon7{  background-position: 0px -390px;  background-size: cover;}
+.icon8{  background-position: 2px -455px;  background-size: cover;}
+.icon9{  background-position: 0px -520px;  background-size: cover;}
+.icon10{  background-position: 2px -585px;  background-size: cover;}
+.icon11{  background-position: 0px -650px;  background-size: cover;}
+.icon12{  background-position: 2px -715px;  background-size: cover;}
+.colTest{
+   text-align:center;
+
+}
+.pre{
+    position: absolute;
+    right:15px;
+    top:30px;
+}
+.pre11{
+    position: absolute;
+    right:15px;
+    top:140px;
+}
+.pre12{
+    position: absolute;
+    right:15px;
+    top:250px;
+}
+.pre13{
+    position: absolute;
+    right:15px;
+    top:360px;
+}
+.pre14{
+    position: absolute;
+    right:15px;
+    top:470px;
+}
+.pre15{
+    position: absolute;
+    right:15px;
+    top:580px;
+}
+.pre1 {
+    border-width: 10px;
+    border-color: transparent transparent transparent #9d9d9d;
+    margin-left: 80%;
+    margin-top: 1.2rem;
+}
+.pre2 {
+    border-width:  10px;
+    border-color: transparent transparent transparent #FFF;
+    margin-left: 80%;
+    position: relative;
+    top:-20px;
+    left:-4px;
+}
+.pre1, .pre2 {
+    /*****设置border-style:dashed;使ie6支持border透明*****/
+    border-style: dashed solid dashed dashed;
+    /*****设置容器宽高为0*****/
+    width: 0;
+    height: 0;
+    /*****去掉ie6下默认高度，设置以下属性*****/
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+    vertical-align: middle !important;
+    color:#e63b0e;
+}
+
+@media screen and (height: 568px){
+    td{
+        font-size: 12px;
+    }
+    .pre{
+        position: absolute;
+        right:12px;
+        top:28px;
+    }
+    .pre11{
+        position: absolute;
+        right:12px;
+        top:132px;
+    }
+    .pre12{
+        position: absolute;
+        right:12px;
+        top:236px;
+    }
+    .pre13{
+        position: absolute;
+        right:12px;
+        top:340px;
+    }
+    .pre14{
+        position: absolute;
+        right:12px;
+        top:444px;
+    }
+    .pre15{
+        position: absolute;
+        right:12px;
+        top:548px;
+    }
+
+}
